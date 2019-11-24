@@ -21,14 +21,20 @@
         <header-file src="src/ios/Progress.h"/>
         <source-file src="src/ios/Progress.m"/>
         <resource-file src="src/ios/KVNProgressView.xib"/>
-        <framework autogen="true" src="Foundation.framework"/>
-        <framework autogen="true" src="QuartzCore.framework"/>
-        <framework autogen="true" src="GLKit.framework"/>
-        <header-file autogen="true" src="src/ios/vendor/headers/KVNProgress.h"/>
-        <header-file autogen="true" src="src/ios/vendor/headers/KVNProgressConfiguration.h"/>
-        <header-file autogen="true" src="src/ios/vendor/headers/UIColor+KVNContrast.h"/>
-        <header-file autogen="true" src="src/ios/vendor/headers/UIImage+KVNEmpty.h"/>
-        <header-file autogen="true" src="src/ios/vendor/headers/UIImage+KVNImageEffects.h"/>
-        <source-file autogen="true" framework="true" src="src/ios/vendor/libKVNProgress.a"/>
+        <framework src="Foundation.framework"/>
+        <framework src="QuartzCore.framework"/>
+        <framework src="GLKit.framework"/>
+        <header-file src="src/ios/vendor/KVNProgress.h"/>
+        <source-file src="src/ios/vendor/KVNProgress.m"/>
+        <header-file src="src/ios/vendor/KVNProgressConfiguration.h"/>
+        <source-file src="src/ios/vendor/KVNProgressConfiguration.m"/>
+        <header-file src="src/ios/vendor/Progress.h"/>
+        <source-file src="src/ios/vendor/Progress.m"/>
+        <header-file src="src/ios/vendor/UIColor+KVNContrast.h"/>
+        <source-file src="src/ios/vendor/UIColor+KVNContrast.m"/>
+        <header-file src="src/ios/vendor/UIImage+KVNEmpty.h"/>
+        <source-file src="src/ios/vendor/UIImage+KVNEmpty.m"/>
+        <header-file src="src/ios/vendor/UIImage+KVNImageEffects.h"/>
+        <source-file src="src/ios/vendor/UIImage+KVNImageEffects.m"/>
     </platform>
 </plugin>
